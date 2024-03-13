@@ -38,7 +38,7 @@ function App() {
               </li>
               <li>
                 <Link to="/product/add">Add Product</Link>
-              </li>
+              </lis>
             </ul>
           </nav>
 
