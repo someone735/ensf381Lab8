@@ -57,6 +57,7 @@ const ProductForm = () => {
     apiCall.then(response => {
       setLoading(false);
       saveProduct(response.data);
+      // Navigate back
       navigate(-1);
     })
     .catch(error => {

@@ -22,7 +22,7 @@ const DeleteButton = ({ productId, onProductDeleted }) => {
       setError('Failed to delete product');
       setLoading(false);
     } finally {
-      setShowConfirmModal(false); 
+      setShowConfirmModal(false); // Close modal after confirmation
     }
   };
 
